@@ -14,7 +14,7 @@ body {
 }
 .d1 {
     width: 40%;
-    border-right: 1vw solid black;
+    border-right: 0.7vw solid black;
 }
 .d2 {
     width: 60%;
@@ -24,6 +24,7 @@ body {
     width: 20vw;
     height: auto;
     float: right;
+    margin-right: 1.5vw;
 }
 .d2 h2 {
     border-bottom: 1vw double rgb(2, 163, 2);
