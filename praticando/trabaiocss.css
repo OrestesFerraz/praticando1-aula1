@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.17vw;
+    overflow: hidden;
+}
+.header {
+    background-color: #a3a3a3;
+    border-top: 3px solid black;
+    border-bottom: 9px solid black;
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+.d1 {
+    width: 40%;
+    border-right: 1vw solid black;
+}
+.d2 {
+    width: 60%;
+    margin-left: 2.5vw;
+}
+.d2 img {
+    width: 20vw;
+    height: auto;
+    float: right;
+}
+.d2 h2 {
+    border-bottom: 1vw double rgb(2, 163, 2);
+}
+.verde {
+    background-color: rgb(123, 223, 109);
+    border-radius: 3vw;
+    margin-top: 5vw;
+    text-align: center;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 0.5vw;
+}
+
+.verde img {
+    margin-top: 1vw;
+    width: 33vw;
+    height: auto;
+}
