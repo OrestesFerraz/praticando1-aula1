@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #425169;
+            color: white;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2vw;
+        }
+        .header {
+            background-color: black;
+            margin: 0px;
+            position: sticky;
+        }
+        input{
+            background-color: #50617e;
+            color: white;
+            text-align: center;
+            width: 30vw;
+            height: 4vh;
+            font-size: 2vw;
+            border-radius: 0.5vw;
+        }
+
+        #bot1 {
+            width: 13vw;
+            height: 6vh;
+        }
+        #bot2 {
+            width: 13vw;
+            height: 6vh;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>  
+        <div class="header">
+             <h1>
+            praticando 1 formulário HTML aula 2
+            </h1>
+        </div>
+       
+
+        <form action="submit.html">
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" value="orestes">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email">
+            <br>
+            <label for="telefone">Telefone:</label>
+            <br>
+            <input type="tel">
+            <br>
+            <label for="url">URL:</label>
+            <br>
+            <input type="url">
+            <br>
+            <label for="nota">Nota de 0 a 10</label>
+            <br>
+            <input type="number">
+            <br>
+            <label for="senha">Senha:</label>
+            <br>
+            <label for="data">data</label>
+            <br>
+            <input type="date">
+
+
+            <br>
+            <input type="submit" value="submit" id="bot1">
+            <input type="reset" value="reset" id="bot2">
+        </form><!--formulario-->
+</body>
+</html>
